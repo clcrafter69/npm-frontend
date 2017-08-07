@@ -26,8 +26,8 @@ header nav ul li{
     float: left;
     color: white;
     list-style: none;
-    margin-left: 40px;
-    padding: 5px;
+    margin-left: 50px;
+    padding: 3px;
 }
 
 
@@ -38,7 +38,13 @@ header nav ul li a {
    
 }
 
-article {
+
+ header nav ul li a:hover
+{
+    color: darkorange;
+    text-decoration: underline;
+}
+.mainArticle{
    float:left;
     background-color:navy;
     color: white;
@@ -86,5 +92,7 @@ main {
     /*background-color:blanchedalmond;*/
     padding: 2rem 2rem 2rem 2rem;
     height: 800px;
-    width:100%;
+    width:110%;
+    background-repeat: no-repeat;
+    
 }
